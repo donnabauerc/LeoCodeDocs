@@ -10,7 +10,7 @@ ifndef::imagesdir[:imagesdir: images]
 
 |Teilnehmer |T. Stütz, C. Donnabauer
 |Ort|Discord
-|Datum|15.04.2020 - 4.EH
+|Datum - Uhrzeit|15.04.2020 - 4.EH
 |Dauer|30min
 |===
 

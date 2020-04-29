@@ -10,7 +10,7 @@ ifndef::imagesdir[:imagesdir: images]
 
 |Teilnehmer |C. Donnabauer
 |Ort|Discord
-|Datum|
+|Datum - Uhrzeit|
 |Dauer|
 |===
 
