@@ -1,0 +1,39 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-06-21
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer | C. Donnabauer, T. Stütz
+|Ort| Discord
+|Datum - Uhrzeit| 21.6.2020 - 10:30
+|Dauer| 45min
+|===
+
+== Besprochene Themen
+
+* Änderungen/Verbesserungen der Test-Api
+* nächste Schritte
+
+== Vereinbarungen und Entscheidungen
+
+* Logging inkonsistent
+* eigenes Projekt für Tests separat zum Quarkus Backend
+* Junit Platform launcher, ... um Test vom Code aus zu Starten
+* Umstieg auf Quarkus 1.5.2
+* Konstanten in application-properties file -> System Property
+* Generell Code überarbeiten
+* Runtime.exec() -> Shell Befehle mit Java auszuführen
+* Eigenen Discord Server für Diplomarbeit sprich Gespräche und Doku
+* Test Files ins Repo
+* 3 Arten von Files Students Code, Test Code, Solutions Code
+* Readme Updaten
+
+1. Eigenes Projekt im Quarkus Projekt Root welches die Files vom Upload verwendet
+2. Dieses Projekt testen
+
+
