@@ -1,0 +1,57 @@
+= LeoCodeDocs:
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+Dieses Repository dient rein zur Dokumentation des Repository https://github.com/donnabauerc/LeoCode[Leo Code].
+
+== Pflichtenheft
+
+=== Ausgangssituation
+Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik,
+Medizintechnik sowie Elektronik.
+
+=== Ist-Situation
+In allen Zweigen spielt das Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik bzw.
+Informatik Zweigen.
+
+=== Problemstellung
+Programmieren ist ein sehr anspruchsvoller Gegenstand. Viele Schüler haben Problem nur durch die Übungen des Unterrichts
+eine positive Note zu erreichen. Üben die Schüler außerhalb des Unterrichts ist Ihnen nicht klar was Sie programmieren sollen
+oder ob die Beispiele richtig sind.
+
+=== Aufgabenstellung
+Zu entwickeln ist ein Platform welche:
+
+* Es Schüler ermöglicht Code-Beispiele zu Programmieren
+* Schüler auf Ihre Abgaben Feedback bzw. die Lösung bereitstellt
+* Dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
+
+== Entwurf
+Die momentane Systemarchitektur sieht in etwa so aus:
+
+image::systemarchitectureV1.png[]
+
+== Weitere Themen:
+
+* Code Repo: https://github.com/donnabauerc/LeoCode[Leo Code]
+* Arbeiten-Tagebuch: https://donnabauerc.github.io/LeoCodeDocs/workingDiary[Working Diary]
+* Protokolle:
+|===
+|https://donnabauerc.github.io/LeoCodeDocs/2020_04_15[15.04.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_04_29[29.04.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_05_18[18.05.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_06_07[07.06.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_06_21[21.06.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_06_29[29.06.2020]
+|===
+* Sonstiges:
+** https://donnabauerc.github.io/LeoCodeDocs/diplomarbeitsAntrag[Diplomarbeitsantrag]
+** https://donnabauerc.github.io/LeoCodeDocs/marktanalyse[Marktanalyse]
+** https://donnabauerc.github.io/LeoCodeDocs/templateProtocol[Template Protokoll]
+
+
+
+

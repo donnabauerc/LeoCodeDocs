@@ -1,6 +1,6 @@
 = Marktanalyse:
 Christian Donnabauer
-1.0, 2020-04-20
+2.0, 2020-05-21
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :toc: left
@@ -30,7 +30,7 @@ Docker Containers einige Fehlermeldungen auftraten, hat es am Ende dennoch funkt
 
 image::theia.png[]
 
-=== Interesting Links
+=== Interessante Links
 
 * https://github.com/theia-ide/theia-apps/tree/master/theia-java-docker
 
@@ -38,7 +38,7 @@ image::theia.png[]
 
 * https://entwickler.de/online/web/eclipse-theia-versus-vs-code-579930963.html
 
-== Fazit
+=== Fazit
 
 Theia ist meiner Meinung nach genau das richtige Tool für meine Zwecke. Es gäbe zwar andere
 Editor, welche man auch hosten könnte allerdings sind diese in Erste Linie nicht fürs Programmieren
@@ -46,5 +46,23 @@ gedacht, sprich ich müsste für die sinnvolle Verwendung ein Plugin schreiben, 
 Ausgaben vom Server an den User weiterleitet. Selbst dann hat Theia allerdings noch Code-Completion
 sowie Syntax Highlighting gegenüber den anderen Editoren.
 
-== Edu Tools
+== Umsetzung per IDE Plugin:
+
+Theia bietet dem User die Möglichkeit im Browser zu Programmieren. Was Theia allerdings nicht kann, ist das Abgeben
+eines Code-Beispieles. Um dieses Problem zu lösen würde entweder eine Angular App dienen oder ein IDE Plugin.
+
+=== VS Code Extension Programmieren:
+
+Zum Erstellen einer Extension wird von Visual Studio yo verwendet, welche nicht nur die Möglichkeit bietet eine Extension
+zu Erstellen, sondern auch für neue Language Supports etc. Zum Anfangen bin ich der Website
+https://code.visualstudio.com/api/get-started/your-first-extension[Your First VSCode Extension] gefolgt. Auf dieser
+Website bzw. den folgenden Pages ist auch relativ gut erklärt, wie eine VS Code Extension generell funktioniert.
+
+=== Interessante Links
+
+* https://eclipsesource.com/de/blogs/2019/10/31/using-vs-code-extensions-in-eclipse-theia-and-che/
+
+* https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+* https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops
 
