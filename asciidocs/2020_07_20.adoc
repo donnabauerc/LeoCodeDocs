@@ -1,0 +1,32 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-07-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |C. Donnabauer, T. Stuetz
+|Ort|Discord
+|Datum - Uhrzeit| 20.07.2020 - 8:50
+|Dauer| 70min
+|===
+
+== Besprochene Themen
+
+* Testing Api Zip Feedback
+* Nächsten Schritte
+
+== Vereinbarungen und Entscheidungen
+
+* Bis nächste Woche:
+** ERD
+** Ein "Ein User System"
+** VSC Extension mit Rest Client
+** Zeitplan bis zur Matura
+* Datenmodell mit folgenden Funktionen: Aufgaben, Tests & Portfolio
+* Auslagerung des User-Management auf Schulserver
+* WhatsApp Gruppe
+* arbeiten auf Feature-Branches
