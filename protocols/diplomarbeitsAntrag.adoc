@@ -1,0 +1,158 @@
+= Diplomarbeits-Antrag:
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+Da das Antragsformular die Zeichenanzahl sehr stark einschränkt, gibt es eine Vollversion & die
+Kurzversion (meiner Meinung nach ist die Finale-Version sehr knapp zu formulieren)
+
+== 1. Vollversion
+
+=== 1.1 Ausgangslage
+
+An der HTL Leonding gibt es vier Fachrichtungen (Abteilung):
+
+* Informatik
+* Medientechnik
+* Elektronik
+* Medizintechnik
+
+und zusätzlich
+
+* Abendschule Informatik
+* Kolleg Informatik
+
+In allen diesen Zweigen wird Informatik mehr oder weniger intensiv unterrichtet. Das Bestreben einer HTL muss sein, die
+Qualität der Lehre in allen Bereichen zu sichern. Dazu gehört insbesondere die Koordination innerhalb der einzelnen
+Fachbereiche im Bereich "Informatik". Diese Koordination findet einerseits durch den gesetzlich vorgegebenen Lehrplan
+und andererseits durch schulinterne Präzisierung und Interpretation des Lehrplans.
+
+Der (informationstechnische) Unterricht an der HTL Leonding zeichnet sich durch einen hohen Praxisbezug aus, das heißt
+neben einem fundierten Theorieunterricht wird Wert auf die praxisnahe Umsetzung in Form von Programmen, SQL-Statements
+usw. gelegt.
+
+Bei der Umsetzung treten allerdings folgende Probleme auf:
+
+1.	Die Lernenden sind sehr heterogen bezüglich Vorkenntnisse, Leistungsbereitschaft und Leistungsvermögen.
+Den Lernenden sind daher für ihr jeweiliges Leistungsniveau Übungsbeispiele anzubieten.
+2.	Die Erstellung von Übungsaufgaben, deren Korrektur sowie die Erstellung des Feedbacks für die Schüler ist sehr
+zeitaufwendig.
+3.	Den neuen Lehrern an der Schule sind Unterlagen und Beispiele zur Verfügung zu stellen, um einen koordinierten
+Unterricht in allen Klassen sicherzustellen.
+4.	Neben den Übungen im Rahmen des Unterrichts wünschen die Lernenden oft weitere Beispiele zum Üben.
+
+
+=== 1.2 Untersuchungsanliegen der individuellen Themenstellungen
+
+Grundsätzlich wir das Projekt allein umgesetzt. Zu Implementieren sind unter anderem:
+
+* Das Übungsmodul enthält mehre Beispiele, welche wiederrum aus:
+** die Angabe
+**	die Abgabe (per Upload oder Online Editor)
+** eventuell die verwendeten Tests
+
+bestehen. Jeder Unterpunkt des Übungsmoduls ist ein eigener Tab, zwischen denen die Lernenden beliebig wechseln können.
+Das Übungsmodul selbst wird als Online Anwendung mit Angular realisiert.
+
+* Das Testmodul überprüft dann die Beispiele mehrfach:
+** auf Korrektheit (z.B.: mit Unit-Tests)
+** auf spezielle Inhalte (z.B.: die Methode reverse() darf zur Lösung nicht verwendet werden,
+zur Lösung muss ein StringBuilder verwendet werden, ...)
+** auf Systemausgaben (z.B.: System.out.println())
+Dieses Modul wird im Hintergrund mithilfe eines Quarkus-Servers unter der Verwendung von Java implementiert.
+
+* Das Erstellungsmodul bietet berechtigten Personen (meist Lehrkräfte der HTL Leonding) die Möglichkeit Beispiele zu Erstellen.
+Dabei haben sie die Wahl das erstellte Beispiel:
+
+** zur veröffentlichen (public) - also für jeden sichtbar
+** organisationsintern zu setzen (intern) - also nur für andere Lehrkräfte sichtbar
+** private zu setzen (private) - nur für den jeweiligen Ersteller sichtbar
+Dieses Modul wird ebenfalls wie das Übungsmodul als Web Applikation unter der Verwendung von Angular umgesetzt
+
+Beispiele werden zu Beginn nur in Java verfügbar sein, eventuell auch in JavaScript. Andere Programmiersprachen würden
+den Rahmen sprengen. Die Module selbst kommunizieren per Rest miteinander.
+
+image::communication.png[]
+
+=== 1.3 Zielsetzung
+
+* Übungen können leichter auf das jeweilige Können eines Schülers angepasst werden.
+Schüler können sich Beispiele aussuchen, welche sie fordern, aber nicht überfordern.
+* Das Lehrpersonal spart bei der Erstellung der Beispiele, sowie der Korrektur und beim Feedback
+viel Zeit.
+* Alle Klassen können gleich schwierige Beispiele bearbeiten. Klassen könne von Lehrer nicht
+mehr so leicht überfordert oder unterfordert werden, was zu einer einheitlich guten Bildung führt.
+* Schüler können zum Üben von Tests außerhalb des Unterrichts noch zusätzliche Übungen machen.
+
+
+=== 1.4 Geplantes Ergebnis der individuellen Themenstellungen
+
+* Eine lauffähige Web-Applikation, welche Schüler & Lehrer beim Lernen/Lehren hilft.
+* Ein Server, welche Abgaben überprüft und Feedback zu den Abgaben gibt.
+* Ein Projekt welches in möglichen nächsten Generationen um andere Programmiersprachen
+erweitert werden kann.
+
+
+== 2. Kurzversion
+
+
+=== 2.1 Ausgangslage
+
+Beim Informatikunterricht treten folgende Probleme auf:
+
+1.	Schüler sind heterogen bezüglich Vorkenntnisse, Leistungs-bereitschaft/vermögen
+2.	Erstellung von Übungsaufgaben, Korrektur sowie Feedback für Schüler ist zeitaufwendig.
+3.	Neue Lehrer wissen nicht ausreichend wie anspruchsvoll der Unterricht gestaltet werden soll.
+4.	Schüler können zum Lernen nur Beispiele aus dem Unterricht wiederholen.
+
+=== 2.2 Untersuchungsanliegen der individuellen Themenstellungen
+
+Das Projekt wird allein umgesetzt.
+
+* Das Übungsmodul enthält mehre Beispiele, welche wiederrum aus:
+** der Angabe
+**	der Abgabe (per Upload oder Online Editor)
+**	den verwendeten Tests
+
+bestehen. Umsetzung durch Angular
+
+* Das Testmodul überprüft dann die Beispiele:
+** auf Korrektheit
+** auf spezielle Methoden etc.
+** auf Systemausgaben
+
+Umsetzung mithilfe eines Quarkus-Servers.
+
+* Das Erstellungsmodul bietet die Möglichkeit Beispiele zu Erstellen.
+Beispiel können:
+** veröffentlicht (public) - für jeden
+** organisationsintern (intern) - nur für Lehrkräfte
+** private (private) - nur für Ersteller
+
+erstellt werden (Umsetzung siehe Übungsmodul).Beispiele werden nur in Java verfügbar sein.
+Kommunikation der Module per Rest.
+
+=== 2.3 Zielsetzung
+
+* Schüler können Beispiele bearbeiten, welche ihrem Können entsprechen.
+* Das Lehrpersonal spart bei der Erstellung, der Korrektur & beim Feedback viel Zeit.
+* Alle Klassen bearbeiten gleich schwierige Beispiele => einheitliche Bildung der Schüler.
+* Schüler können außerhalb des Unterrichts zusätzliche Übungen machen.
+* Neue Lehrer haben eine Vorstellung wie schwer Beispiele sein sollen.
+
+=== 2.4 Geplantes Ergebnis der individuellen Themenstellungen
+
+* Eine lauffähige Web-Applikation, welche Schüler & Lehrer beim Lernen/Lehren hilft.
+* Ein Server, welche Abgaben überprüft und Feedback zu den Abgaben gibt.
+* Ein Projekt welches in möglichen nächsten Generationen um andere Programmiersprachen
+erweitert werden kann.
+
+== Meilensteine:
+
+1. Lauffähiger Test Server
+2. Überprüfung eines Beispieles durch den Test Server
+3. Rudimentäre Website, welche den Server Code-Beispiele senden kann
+4. vollständige Implementierung der Funktionalität von Website
+5. Design des Front-Ends

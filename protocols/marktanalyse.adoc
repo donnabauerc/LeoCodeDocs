@@ -1,0 +1,68 @@
+= Marktanalyse:
+Christian Donnabauer
+2.0, 2020-05-21
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+Folgendes Dokument soll Entscheidungen bzgl. technischer Umsetzung erleichtern.
+Ziel ist es dem User die Möglichkeit zu bieten ein Beispiel zu Coden, zu Testen
+& Abzugeben. Dies kann auf verschiedenen Varianten erreicht werden.
+
+== Theia
+
+Eine Möglichkeit dies umzusetzen ist Eclipse Theia. Eclipse Theia ist eine erweiterbare
+Cloud-IDE, die auf einem Remote-Server läuft und von einem Webbrowser aus zugänglich ist.
+Aussehen und Verhalten sind ähnlich wie bei Microsoft Visual Studio Code, wodurch es viele
+Programmiersprachen unterstützt, ein flexibles Layout und ein integriertes Terminal hat.
+
+=== Installation
+
+Um zu Überprüfen wie sinnvoll Theia wäre habe ich die Cloud-IDE lokal mit Docker aufgesetzt.
+Dabei ist es grundsätzlich so, dass man Theia sehr leicht mit dem fertigen Image hosten kann.
+Will man allerdings Theia mit Java verwenden, sprich Programme kompilieren, ausführen & Code-Completion
+nützen, ist dies ein bisschen komplezierter.
+
+Nach eingehender Recherche bin ich auf ein https://github.com/theia-ide/theia-apps/tree/master/theia-java-docker[Github
+Repo] gestoßen, welches die nötigen Files nicht nur für die Verwendung mit Java, sondern auch
+mit einigen anderen Programmiersprachen zu Verfügung stellt. Auch wenn bei mir beim Build des
+Docker Containers einige Fehlermeldungen auftraten, hat es am Ende dennoch funktioniert.
+
+image::theia.png[]
+
+=== Interessante Links
+
+* https://github.com/theia-ide/theia-apps/tree/master/theia-java-docker
+
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-the-eclipse-theia-cloud-ide-platform-on-ubuntu-18-04-de
+
+* https://entwickler.de/online/web/eclipse-theia-versus-vs-code-579930963.html
+
+=== Fazit
+
+Theia ist meiner Meinung nach genau das richtige Tool für meine Zwecke. Es gäbe zwar andere
+Editor, welche man auch hosten könnte allerdings sind diese in Erste Linie nicht fürs Programmieren
+gedacht, sprich ich müsste für die sinnvolle Verwendung ein Plugin schreiben, welche Consolen-
+Ausgaben vom Server an den User weiterleitet. Selbst dann hat Theia allerdings noch Code-Completion
+sowie Syntax Highlighting gegenüber den anderen Editoren.
+
+== Umsetzung per IDE Plugin:
+
+Theia bietet dem User die Möglichkeit im Browser zu Programmieren. Was Theia allerdings nicht kann, ist das Abgeben
+eines Code-Beispieles. Um dieses Problem zu lösen würde entweder eine Angular App dienen oder ein IDE Plugin.
+
+=== VS Code Extension Programmieren:
+
+Zum Erstellen einer Extension wird von Visual Studio yo verwendet, welche nicht nur die Möglichkeit bietet eine Extension
+zu Erstellen, sondern auch für neue Language Supports etc. Zum Anfangen bin ich der Website
+https://code.visualstudio.com/api/get-started/your-first-extension[Your First VSCode Extension] gefolgt. Auf dieser
+Website bzw. den folgenden Pages ist auch relativ gut erklärt, wie eine VS Code Extension generell funktioniert.
+
+=== Interessante Links
+
+* https://eclipsesource.com/de/blogs/2019/10/31/using-vs-code-extensions-in-eclipse-theia-and-che/
+
+* https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+* https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops
+
