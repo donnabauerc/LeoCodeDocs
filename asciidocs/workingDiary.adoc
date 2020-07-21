@@ -20,5 +20,3 @@ ifndef::imagesdir[:imagesdir: images]
 
 * Start des VSC-Plugins
 * Rest Requests durch Befehl in VSC - 13.7
-* Meeting - 20.7
-* Erstellung eines YouTrack Projekt - 21.7

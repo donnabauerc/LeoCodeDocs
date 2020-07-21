@@ -36,8 +36,8 @@ image::systemarchitectureV1.png[]
 
 == Weitere Themen:
 
-* Code Repository: https://github.com/donnabauerc/LeoCode[Leo Code]
-* YouTrack: https://vm81.htl-leonding.ac.at/agiles/99-237/100-1007[YouTrack]
+* Code Repo: https://github.com/donnabauerc/LeoCode[Leo Code]
+* Arbeiten-Tagebuch: https://donnabauerc.github.io/LeoCodeDocs/workingDiary[Working Diary]
 * Protokolle:
 |===
 |https://donnabauerc.github.io/LeoCodeDocs/2020_04_15[15.04.2020]
@@ -46,7 +46,6 @@ image::systemarchitectureV1.png[]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_06_07[07.06.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_06_21[21.06.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_06_29[29.06.2020]
-|https://donnabauerc.github.io/LeoCodeDocs/2020_07_20[20.07.2020]
 |===
 * Sonstiges:
 ** https://donnabauerc.github.io/LeoCodeDocs/diplomarbeitsAntrag[Diplomarbeitsantrag]
