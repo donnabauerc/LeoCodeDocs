@@ -36,8 +36,8 @@ image::systemarchitectureV1.png[]
 
 == Weitere Themen:
 
-* Code Repo: https://github.com/donnabauerc/LeoCode[Leo Code]
-* Arbeiten-Tagebuch: https://donnabauerc.github.io/LeoCodeDocs/workingDiary[Working Diary]
+* Code Repository: https://github.com/donnabauerc/LeoCode[Leo Code]
+* YouTrack: https://vm81.htl-leonding.ac.at/agiles/99-237/100-1007[YouTrack]
 * Protokolle:
 |===
 |https://donnabauerc.github.io/LeoCodeDocs/2020_04_15[15.04.2020]
