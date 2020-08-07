@@ -50,6 +50,7 @@ image::systemarchitectureV1.png[]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_07_29[29.07.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_08_03[03.08.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_08_06[06.08.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_08_07[07.08.2020]
 
 |===
 * Sonstiges:

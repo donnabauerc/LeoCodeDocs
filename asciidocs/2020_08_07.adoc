@@ -1,0 +1,28 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-08-07
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |C. Donnabauer, T. Stuetz
+|Ort|Discord
+|Datum - Uhrzeit| 07.08.2020 - 9:30
+|Dauer|
+|===
+
+== Besprochene Themen
+
+* Jenkins
+* Projekt in Oracle Cloud etc. direkt deployen
+* momentan händisch starten -> wenn Zugang zu Oracle Cloud dann über Jenkins in Cloud deployen
+
+== Vereinbarungen und Entscheidungen
+
+* https://htl-leonding-college.github.io/docker-lecture-notes/docker.html
+* https://github.com/redhat-developer/intellij-quarkus/blob/master/Jenkinsfile
+* https://braindose.blog/2020/03/23/jenkins-jnpl-slave-agent-container-graalvm/amp/
+* https://academy.oracle.com/en/oa-web-overview.html
