@@ -17,13 +17,16 @@ ifndef::imagesdir[:imagesdir: images]
 == Besprochene Themen
 
 * System Architektur
-* nächsten Schritte
+* nächsten Schritte|https://donnabauerc.github.io/LeoCodeDocs/2020_08_07[07.08.2020]
 
 == Vereinbarungen und Entscheidungen
 
 * System Architektur mit Plant UML
 * Umstieg auf Jenkins nach evtl. Lösung von GraalVM
 * Skizzen der Website mit Bleistift
+* ansehen des Videos https://www.youtube.com/watch?v=yA9TocpMthI
+* erstellen einer Jenkins Pipeline -> Zugriff per Rest oder Hook
+* Tägliche Pushes und Feature Branches
 
 [plantuml,sysarch,png]
 ----
