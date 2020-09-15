@@ -1,0 +1,4 @@
+= Working Diary:
+
+* 15.09.2020 - 3:00H: Versuche die Native Variante zu fixen, erste Jenkinsfiles, "Schlachtplan" für die Jenkins-Variante
+, Image für das Ausführen von Java Projekten

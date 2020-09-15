@@ -59,6 +59,7 @@ image::systemarchitectureV1.png[]
 ** https://donnabauerc.github.io/LeoCodeDocs/diplomarbeitsAntrag[Diplomarbeitsantrag]
 ** https://donnabauerc.github.io/LeoCodeDocs/marktanalyse[Marktanalyse]
 ** https://donnabauerc.github.io/LeoCodeDocs/templateProtocol[Template Protokoll]
+** https://donnabauerc.github.io/LeoCodeDocs/workingdiary[Working Diary]
 
 
 
