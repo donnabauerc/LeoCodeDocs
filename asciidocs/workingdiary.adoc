@@ -2,3 +2,4 @@
 
 * 15.09.2020 - 3:00H: Versuche die Native Variante zu fixen, erste Jenkinsfiles, "Schlachtplan" für die Jenkins-Variante
 , Image für das Ausführen von Java Projekten, Discord Webhooks für Push Events
+* 16.09.2020 - 1:30H: Docker Image für Java Projekte (in Wirklichkeit unnötig), Testing Api in JVM Mode
