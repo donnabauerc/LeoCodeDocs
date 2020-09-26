@@ -54,6 +54,8 @@ zugeordnet
 
 === Verwendete Technologien
 
+image::./assets/tech-stack.png[tech-stack]
+
 === Systemarchitektur
 
 == Aktueller Projektstatus
