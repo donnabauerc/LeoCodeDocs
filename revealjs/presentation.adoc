@@ -1,0 +1,45 @@
+= LeoCode:
+Donnabauer Christian
+
+== Was ist LeoCode
+* Was sind die Ziele von LeoCode?
+* Wie werden die Ziele realisiert?
+* Aktueller Projektstatus
+* Was ist LeoLearn?
+
+== Was sind die Ziele von LeoCode?
+
+
+
+=== Welche Probleme bestehen momentan?
+
+* komplexer Einstieg
+* Testvorbereitung
+* fehlendes Feedback
+* langsames Einarbeiten
+* Lernaufwand nicht in Benotung
+
+[.notes]
+--
+* Der Einstieg in die Programmierung ist für jüngere Jahrgänge momentan noch relativ komplex => Setup JDK IDE, etc.
+* Schüler können zur Testvorbereitung nur Beispiele programmieren, welche bereits im Unterricht gemacht wurden
+=> erschwert lernen für Tests
+* Schüler wissen nicht ob bzw. in wie weit ein von ihnen programmiertes Code Beispiel richtig ist => zwar wissen sie
+obs kompeliert, allerdings nicht ob Daten korrekt sind
+* Neue Lehrer an der Schule wissen nicht genau wie sehr sie die Schüler in welchen Gebieten fordern können => so werden
+Schüler überforder/unterfordert, ungleichmäßiges Leistungsnivea an der Schule
+* Lehrer können nur bedingt den individuellen Lernaufwand der Schüler in die Benotung einfließen lassen => Lehrer würden
+gern den Lernaufwand der jeder selbst investiert auch zur Benotung heranziehen, allerdings oft schwer einzuschätzen
+--
+
+=== Wie werden diese gelöst?
+
+== Wie werden die Ziele realisiert?
+
+=== Verwendete Technologien
+
+=== Systemarchitektur
+
+== Aktueller Projektstatus
+
+== Was ist LeoLearn?
