@@ -27,12 +27,28 @@ Donnabauer Christian
 * Schüler wissen nicht ob bzw. in wie weit ein von ihnen programmiertes Code Beispiel richtig ist => zwar wissen sie
 obs kompeliert, allerdings nicht ob Daten korrekt sind
 * Neue Lehrer an der Schule wissen nicht genau wie sehr sie die Schüler in welchen Gebieten fordern können => so werden
-Schüler überforder/unterfordert, ungleichmäßiges Leistungsnivea an der Schule
+Schüler überforder/unterfordert, ungleichmäßiges Leistungsniveau an der Schule
 * Lehrer können nur bedingt den individuellen Lernaufwand der Schüler in die Benotung einfließen lassen => Lehrer würden
 gern den Lernaufwand der jeder selbst investiert auch zur Benotung heranziehen, allerdings oft schwer einzuschätzen
 --
 
 === Wie werden diese gelöst?
+
+* Online Editor
+* Website mit von Lehrern erstellten Beispielen
+* Code wird am Server getestet
+* Schülerportfolio
+
+[.notes]
+--
+* Durch einen Editor welchen LeoCode hosted können Anfänger ohne etwas zu installieren direkt im Browser programmieren
+* Um an mehr Übungsmaterial zu kommen können Schüler von Lehrern erstellte Beispiele (inklusive Angabe & Tests)
+ausprobiern
+* Hat ein Schüler ein Beispiel programmiert kann dieser die Code Files einsenden, die Files werden nach Funktionalität
+(Unittest von Lehrern) und spezielle Umsetzungen (ist String Builder verwendet worden) getestet
+* Programmiert ein Schüler ein Beispiel wird das jeweilige Beispiel und dessen Ergebnis einem Schülerportfolio
+zugeordnet
+--
 
 == Wie werden die Ziele realisiert?
 
