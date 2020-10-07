@@ -1,0 +1,26 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-10-06
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |C. Donnabauer, T. Stuetz, C. Aberger
+|Ort| Schule
+|Datum - Uhrzeit| 06.10.2020 - 9:30
+|Dauer| 1:30H
+|===
+
+== Besprochene Themen
+
+* Projekt Präsentation
+* zukünftige Systemarchitektur
+
+== Vereinbarungen und Entscheidungen
+
+* Testen mithilfe von https://github.com/jenkinsci/jenkinsfile-runner[JenkinsRunner] nicht kompletten Jenkins
+* Refactoring des Backends inklusive Project Type (Java, C, etc)
+* ERD

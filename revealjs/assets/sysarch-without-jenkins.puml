@@ -15,7 +15,7 @@ node "Docker" as Docker3{
     }
 }
 
-package "Angular" {
+package "Nginx" {
     [LeoCode Frontend]
 }
 

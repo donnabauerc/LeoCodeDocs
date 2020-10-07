@@ -3,3 +3,8 @@
 * 15.09.2020 - 3:00H: Versuche die Native Variante zu fixen, erste Jenkinsfiles, "Schlachtplan" für die Jenkins-Variante
 , Image für das Ausführen von Java Projekten, Discord Webhooks für Push Events
 * 16.09.2020 - 1:30H: Docker Image für Java Projekte (in Wirklichkeit unnötig), Testing Api in JVM Mode
+* 17.09.2020 - 2:00H: Versuche/Recherche um die Testing API mit einer JDK bzw. mit Maven in einen Container
+laufen zu lassen
+* 18.09.2020 - 3:15H: Fixen der Errors, welche beim Ausführen des Container mit JDK & Maven auftreten bzw. generell das
+Vervollständigen des Images, allerdings Timeout beim Testlauf - möglicherweise Bug im Quarkus Projekt (mvn test von
+Quarkus gestartet gibt keinerlei Response ein manuell gestartetes mvn test funktioniert allerdings)

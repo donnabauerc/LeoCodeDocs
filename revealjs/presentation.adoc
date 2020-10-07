@@ -56,13 +56,17 @@ zugeordnet
 
 image::./assets/tech-stack.png[tech-stack]
 
-=== Systemarchitektur Variante 1
+=== Systemarchitektur Istzustand
+
+image::./assets/sysarch-without-jenkins.png[]
+
+=== Systemarchitektur Soll
 
 image::./assets/sysarch-with-jenkins.png[]
 
-=== Systemarchitektur Variante 2
+=== Ablauf der Jenkins Variante
 
-image::./assets/sysarch-without-jenkins.png[]
+image::./assets/sequence.png[]
 
 == Aktueller Projektstatus
 
@@ -72,7 +76,7 @@ image::./assets/sysarch-without-jenkins.png[]
 [.notes]
 --
 * Backend, DB, Testing API ohne Docker, Angular funktioniert nocht nicht ausgereift
-* Jenkins Variante spezialisiern
+* Jenkins Variante spezialisiernje
 --
 
 == Was ist LeoLearn?

@@ -1,0 +1,72 @@
+@startuml
+node "Ngnix" as instructor {
+
+    folder "example" as fo5 {
+        file "solution" as file2
+        file "instruction" as file3
+        file "test" as file4
+    }
+
+}
+
+node "Theia/Ngnix" {
+    file ".java" as student
+}
+
+node "Backend Server (Quarkus)" as backend{
+
+}
+
+database "Postgresql" as db
+
+node "Testing API (Quarkus)" as testapi{
+    file ".java" as file1
+    file "pom.xml"
+}
+
+node "Jenkins with Docker" as jenkins {
+    rectangle "send result" as re4 {
+            () "send to backend" as stb
+        }
+
+    rectangle "test" as re3{
+            folder "project-under-test" as fo3{
+                  file "test results" as f5
+            }
+        }
+
+    rectangle "compile" as re2{
+            folder "project-under-test" as fo2{
+                      file ".class" as f3
+            }
+        }
+
+    rectangle "checkout scm" as re1{
+        folder "project-under-test" as fo1 {
+                file ".java" as f1
+                file "pom.xml" as f2
+            }
+    }
+
+}
+
+
+student -up-> backend
+
+backend <-left-> db
+
+backend -right-> testapi
+
+file1 -right-> jenkins
+
+re1 -right-> re2
+
+re2 -right-> re3
+
+re3 -right-> re4
+
+stb --> backend : "GUID & Result"
+
+fo5 -down-> backend
+
+@enduml
