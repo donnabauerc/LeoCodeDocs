@@ -15,11 +15,10 @@ node "Docker" as Docker3{
     }
 }
 
-package "Jenkins" {
-    node "Docker" as Docker4{
-        [LeoCode ProjectUnderTest]
-    }
+node "Jenkins" as Jenkins{
+   [Project Under Test]
 }
+
 
 package "Nginx" {
     [LeoCode Frontend]
@@ -28,5 +27,5 @@ package "Nginx" {
 [LeoCode TestingApi] - [LeoCode Backend]
 [LeoCode Backend] - Postgresql
 [LeoCode Backend] -up- [LeoCode Frontend]
-[LeoCode TestingApi] -up- [LeoCode ProjectUnderTest]
+[LeoCode TestingApi] -up- [Project Under Test]
 @enduml

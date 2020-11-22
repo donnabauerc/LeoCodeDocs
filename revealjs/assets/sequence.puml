@@ -1,72 +1,45 @@
 @startuml
-node "Ngnix" as instructor {
-
+node "Ngnix (Instructor)" as instructor {
     folder "example" as fo5 {
         file "solution" as file2
         file "instruction" as file3
         file "test" as file4
+        file "Jenkinsfile" as file5
     }
 
 }
 
-node "Theia/Ngnix" {
-    file ".java" as student
+node "Theia/Ngnix (Student)" {
+    file "Code" as student
 }
 
-node "Backend Server (Quarkus)" as backend{
+node "Backend Server (Quarkus)" as backend {
 
 }
 
 database "Postgresql" as db
 
 node "Testing API (Quarkus)" as testapi{
-    file ".java" as file1
-    file "pom.xml"
+    file "project-under-test.zip" as file1
+    file "TestLog.txt" as testLog
 }
 
-node "Jenkins with Docker" as jenkins {
-    rectangle "send result" as re4 {
-            () "send to backend" as stb
+node "Jenkinsfile-Runner" as jenkins {
+    rectangle "Jenkins (Docker)" as re3{
+            folder "project-under-test" as projectUnderTest
         }
-
-    rectangle "test" as re3{
-            folder "project-under-test" as fo3{
-                  file "test results" as f5
-            }
-        }
-
-    rectangle "compile" as re2{
-            folder "project-under-test" as fo2{
-                      file ".class" as f3
-            }
-        }
-
-    rectangle "checkout scm" as re1{
-        folder "project-under-test" as fo1 {
-                file ".java" as f1
-                file "pom.xml" as f2
-            }
-    }
-
 }
 
+instructor -up-> backend
 
-student -up-> backend
+student --> backend
 
 backend <-left-> db
 
-backend -right-> testapi
+backend -right-> testapi : project-under-test.zip
+testapi -left-> backend : Test result
 
-file1 -right-> jenkins
+file1 --> projectUnderTest
 
-re1 -right-> re2
-
-re2 -right-> re3
-
-re3 -right-> re4
-
-stb --> backend : "GUID & Result"
-
-fo5 -down-> backend
-
+projectUnderTest -up-> testLog
 @enduml

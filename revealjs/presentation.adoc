@@ -56,17 +56,13 @@ zugeordnet
 
 image::./assets/tech-stack.png[tech-stack]
 
-=== Systemarchitektur Istzustand
+=== Systemarchitektur
 
-image::./assets/sysarch-without-jenkins.png[]
+image::./assets/sysarch.png[systemarchitecture]
 
-=== Systemarchitektur Soll
+=== Ablauf
 
-image::./assets/sysarch-with-jenkins.png[]
-
-=== Ablauf der Jenkins Variante
-
-image::./assets/sequence.png[]
+image::./assets/sequence.png[sequence]
 
 == Aktueller Projektstatus
 
@@ -79,4 +75,3 @@ image::./assets/sequence.png[]
 * Jenkins Variante spezialisiernje
 --
 
-== Was ist LeoLearn?
