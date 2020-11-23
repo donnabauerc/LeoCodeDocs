@@ -64,6 +64,14 @@ image::./assets/sysarch.png[systemarchitecture]
 
 image::./assets/sequence.png[sequence]
 
+=== Workflow
+
+* OS: Ubuntu 20.04
+* IDE: Jetbrains bzw. Intellij
+* VCS: Git
+* Trennung zwischen Dokumenten & Code Repository
+* GitHub Issues (YouTrack)
+
 == Aktueller Projektstatus
 
 * Was funktioniert jetzt?
