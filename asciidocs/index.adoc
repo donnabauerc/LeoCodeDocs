@@ -32,7 +32,7 @@ Zu entwickeln ist ein Platform welche:
 == Entwurf
 Die momentane Systemarchitektur sieht in etwa so aus:
 
-image::systemarchitectureV1.png[]
+image::deployment.png[deployment]
 
 == Weitere Themen:
 
@@ -54,6 +54,7 @@ image::systemarchitectureV1.png[]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_08_07[07.08.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_08_29[29.08.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_09_01[01.09.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_09_01[01.12.2020]
 
 |===
 * Sonstiges:

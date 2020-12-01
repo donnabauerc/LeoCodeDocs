@@ -1,0 +1,35 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |C. Donnabauer, T. Stutz, C. Aberger
+|Ort|Discord
+|Datum - Uhrzeit| 01.12.2020 - 9:00-10:45
+|Dauer| 1H 45Min
+|===
+
+== Besprochene Themen
+
+* Status Quo
+* Nächsten Schritte
+
+== Vereinbarungen und Entscheidungen
+
+* System Architektur: Docker irrelevant
+* Exception Handling: User benötigt Feedback - https://stackoverflow.com/questions/13857638/global-custom-exception-handler-in-resteasy
+* Kommunikation zwischen Testing API & Backend mittels Kafka nicht mit Rest:
+
+image::deployment.png[deployment]
+
+* Zip über Filesystem "teilen"
+* Testen als Batch Process => wird nicht von Quarkus unterstützt
+** https://github.com/quarkusio/quarkus/issues/1505
+** https://www.oracle.com/technical-resources/articles/java/batch-processing-ee-7.html
+** Umsetzung mittels übergeordnetes Jar über JenkinsRunner
+** Submition in DB speichern: Id, Path to Zip, Status (Created, Submitted, Compiling, Done)
