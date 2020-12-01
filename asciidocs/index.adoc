@@ -1,6 +1,6 @@
 = LeoCodeDocs:
 Christian Donnabauer
-1.0, 2020-04-20
+1.2, 2020-12-01
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :toc: left
