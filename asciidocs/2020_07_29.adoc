@@ -1,0 +1,36 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-07-29
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |C. Donnabauer, T. Stuetz
+|Ort|Discord
+|Datum - Uhrzeit| 29.07.2020 - 10:30
+|Dauer| 45min
+|===
+
+== Besprochene Themen
+
+* Status Quo
+* Diplomarbeit in Md schreiben und in latex umwandeln?
+* Mögliches Kapitel über Erstellung der Diplomarbeit selbst
+
+== Vereinbarungen und Entscheidungen
+
+* Backend File an Test API als JSON oder Input (siehe @FormsParam)
+* Test Modul getrennt vom Backend, da in Zukunft weitere Sprache so leichter erweitert werden können
+* https://github.com/rstropek/pandoc-latex
+* Grundlegende Struktur der Diplomarbeit mit Anmerkungen
+* Diplomarbeit zu Orientierung bekommen
+* Website sowieso notwendig auch zusätzlich zu IDE Extension
+* NPM Paket für KeyCloak:
+** https://www.npmjs.com/package/keycloak-angular
+** https://medium.com/@sairamkrish/keycloak-integration-part-2-integration-with-angular-frontend-f2716c696a28
+* Für Angular App: https://www.ahmedbouchefra.com/angular-tutorial-example-upload-files-with-formdata-httpclient-rxjs-and-material-progressbar/
+* Debug Port ändern: https://github.com/redhat-developer/vscode-quarkus/issues/121
+* Jenkins wenn Server implementiert sind intressant

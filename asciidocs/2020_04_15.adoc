@@ -1,0 +1,27 @@
+= Besprechungsprotokoll 15.04.2020
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |T. Stütz, C. Donnabauer
+|Ort|Discord
+|Datum - Uhrzeit|15.04.2020 - 4.EH
+|Dauer|30min
+|===
+
+== Besprochene Themen
+
+* Thema für eine Diplomarbeit => LeoCode
+* https://htl-leonding-college.github.io/leo-learn-master/leo-learn-req-specs.html[Rahmenbedingung/Aufgabenstellung]
+(Unterpunkt LeoCode)
+
+== Vereinbarungen und Entscheidungen
+
+* Realisierung mit Online Editor? Welchen?
+* Zum Beispiel KataCoda etc. ansehen => Inspiration
+* Antrag auf der Diplomarbeitsdatenbank stellen

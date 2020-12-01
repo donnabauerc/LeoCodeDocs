@@ -1,0 +1,34 @@
+= Besprechungsprotokoll
+Christian Donnabauer
+1.0, 2020-06-07
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |C. Donnabauer, T. Stütz
+|Ort|Discord
+|Datum - Uhrzeit| 07.06.2020 - 10:45
+|Dauer| 60min
+|===
+
+== Besprochene Themen
+
+* Vorgehensweise des Projektes
+
+== Vereinbarungen und Entscheidungen
+
+* Server vorerst simulieren -> lokal
+* Möglichkeiten zum Ausführen von Unittests:
+** Maven zB.: mvn clean compile test > output.txt
+** Jenkins
+** Java: Verwendung der Robot API
+* Was muss geprüft werden?
+** Ausführen von Unittests
+** Überprüfen auf Keywords zB.: Verwendung von while
+** Verwendung von ANTLR für weiterführende Überprüfungen
+* Nächste Schritte:
+** Minibeispiele programmieren inklusive Unittests
+** Ziel ist es bis zum Schulschluss eine Entscheidung bzgl. der Architektur zu treffen (durch Prototypen)
