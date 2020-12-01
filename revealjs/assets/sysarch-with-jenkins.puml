@@ -1,0 +1,31 @@
+@startuml
+
+node "Docker" as Docker2{
+    database "Postgresql"
+}
+node "Docker" as Docker1{
+    package "Quarkus" as Quarkus1{
+        [LeoCode Backend]
+    }
+}
+
+node "Docker" as Docker3{
+    package "Quarkus" as Quarkus2{
+        [LeoCode TestingApi]
+    }
+}
+
+node "Jenkins" as Jenkins{
+   [Project Under Test]
+}
+
+
+package "Nginx" {
+    [LeoCode Frontend]
+}
+
+[LeoCode TestingApi] - [LeoCode Backend]
+[LeoCode Backend] - Postgresql
+[LeoCode Backend] -up- [LeoCode Frontend]
+[LeoCode TestingApi] -up- [Project Under Test]
+@enduml

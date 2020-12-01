@@ -1,0 +1,45 @@
+@startuml
+node "Ngnix (Instructor)" as instructor {
+    folder "example" as fo5 {
+        file "solution" as file2
+        file "instruction" as file3
+        file "test" as file4
+        file "Jenkinsfile" as file5
+    }
+
+}
+
+node "Theia/Ngnix (Student)" {
+    file "Code" as student
+}
+
+node "Backend Server (Quarkus)" as backend {
+
+}
+
+database "Postgresql" as db
+
+node "Testing API (Quarkus)" as testapi{
+    file "project-under-test.zip" as file1
+    file "TestLog.txt" as testLog
+}
+
+node "Jenkinsfile-Runner" as jenkins {
+    rectangle "Jenkins (Docker)" as re3{
+            folder "project-under-test" as projectUnderTest
+        }
+}
+
+instructor -up-> backend
+
+student --> backend
+
+backend <-left-> db
+
+backend -right-> testapi : project-under-test.zip
+testapi -left-> backend : Test result
+
+file1 --> projectUnderTest
+
+projectUnderTest -up-> testLog
+@enduml
