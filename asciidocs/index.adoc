@@ -30,7 +30,7 @@ Zu entwickeln ist ein Platform welche:
 * Dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
 
 == Entwurf
-Die momentane Systemarchitektur sieht in etwa so aus:
+Die momentane Systemarchitektur bzw. der momentane Ablauf sieht in etwa so aus:
 
 image::deployment.png[deployment]
 
