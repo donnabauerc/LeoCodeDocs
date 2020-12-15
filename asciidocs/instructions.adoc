@@ -74,3 +74,5 @@ könnte. Der User sollte dann zwischen normaler Ansicht und Angabe wechseln kön
 kompliziert solch eine Umsetzung wirklich ist.
 
 == Infos
+
+Hier werden in Zukunft verschiedene weiteren Infos bezüglich den Endpoints oder dem generellen Backend angeführt werden.
