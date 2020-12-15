@@ -58,10 +58,19 @@ Die Website soll diese Beispiele dann als Liste Darstellen. Pro Listenelement bz
 
 * Der *ExampleName*: Name des Beispiels
 * Die *Description*: Kurzbeschreibung des Beispiels
-* Der *Autor*: Name des Ersteller (Lehrers) z.B.: Stütz
+* Der *Autor*: Name des Erstellers (Lehrers) z.B.: Stütz
 
 angezeigt werden. Klickt ein User nun auf ein Beispiel wird er auf die <<Example Detail, Detailansicht>> weitergeleitet.
 
 === Example Detail
+
+Als Schüler möchte ich die Angabe sehen.
+
+Grundsätzlich soll dies einfach eine Detailansicht eines Beispiels sein. Hier sieht man alle möglichen Informationen
+eines Beispiels (außer der Lösung sowie dem Jenkinsfile).
+
+Was extrem cool wäre ist, wenn die Angabe, welche schließlich als adoc angegeben werden sollte direkt angezeigt werden
+könnte. Der User sollte dann zwischen normaler Ansicht und Angabe wechseln können. Ich weiß allerdings nicht wie
+kompliziert solch eine Umsetzung wirklich ist.
 
 == Infos
