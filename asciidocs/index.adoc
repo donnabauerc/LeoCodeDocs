@@ -58,9 +58,8 @@ image::deployment.png[deployment]
 
 |===
 * Sonstiges:
+** https://donnabauerc.github.io/LeoCodeDocs/instructions[Anleitung für 2nd Gen]
 ** https://donnabauerc.github.io/LeoCodeDocs/diplomarbeitsAntrag[Diplomarbeitsantrag]
-** https://donnabauerc.github.io/LeoCodeDocs/marktanalyse[Marktanalyse]
-** https://donnabauerc.github.io/LeoCodeDocs/templateProtocol[Template Protokoll]
 
 
 
