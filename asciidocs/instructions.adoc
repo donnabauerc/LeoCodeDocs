@@ -39,6 +39,16 @@ zwischen mehreren Jenkinsfile-Presets auszuwählen oder eben selbst eines hochla
 
 === Test Project
 
+Als Schüler will ich meinen Code zu einem Beispiel testen. Hierfür soll wieder ein Formular verwendet werden. Dieses
+Formular benötigt:
+
+* *Username*: Name des Benutzers (Schüler), sollte später über Session automatisch gesetzt werden reicht momentan
+allerdings noch manuell
+* *Example*: Id des zu testende Beispiels, sollte über Routerlink gesetzt werden also: Schüler sieht sich ein Beispiel an
+(<<Example Detail, Example Detail>>) => coded Beispiel & drückt anschließend Abgeben Button => wird zum Abgabe Formular
+(<<Test Project, Test Project>>) weitergeleitet
+* *Code*: Sourcecode Files des Schülers, momentan .java Files können mehrere sein
+
 === List All Examples
 
 === Example Detail
