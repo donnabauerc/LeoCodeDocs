@@ -51,6 +51,17 @@ allerdings noch manuell
 
 === List All Examples
 
+Als Schüler möchte ich zwischen verschiedenen (allen) Beispielen wählen, welches ich probieren will.
+
+Hierbei soll auf einen Endpoints des Backends zugegriffen werden, welche alle Beispiel returnt (nähere Infos folgen).
+Die Website soll diese Beispiele dann als Liste Darstellen. Pro Listenelement bzw. pro Beispiel soll:
+
+* Der *ExampleName*: Name des Beispiels
+* Die *Description*: Kurzbeschreibung des Beispiels
+* Der *Autor*: Name des Ersteller (Lehrers) z.B.: Stütz
+
+angezeigt werden. Klickt ein User nun auf ein Beispiel wird er auf die <<Example Detail, Detailansicht>> weitergeleitet.
+
 === Example Detail
 
 == Infos
