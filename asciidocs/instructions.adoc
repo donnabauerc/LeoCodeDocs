@@ -1,0 +1,46 @@
+= Angabe LeoCode Frontend
+Christian Donnabauer
+1.0, 2020-15-12
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+Es soll eine Angular Anwendung geschrieben werden, welche nach und nach als Frontend für LeoCode genützt werden kann.
+Gleich Vorweg will ich gesagt haben, dass ich natürlich für allerlei Fragen per Discord oder Mail gern zu Verfügung
+stehe.
+
+== Tasks
+Anfangs ist das Design noch nicht wirklich wichtig, Priorität hat die Funktionalität sprich die Zugriffe aufs Backend
+mittels Rest. Dennoch würde ich es für sinnvoll halten mit *Bootstrap* oder noch besser mit *Angular Material* zu
+arbeiten.
+
+Vorerst sind folgende Funktionen zu implementieren:
+
+* <<Create Example, Create Example>>
+* <<Test Project, Test Project>>
+* <<List All Examples, List All Examples>>
+* <<Example Detail, Example Detail>>
+
+=== Create Example
+Als Lehrer will ich die Möglichkeit haben ein Beispiel zu erstellen. Dies soll mittels eines Formulars realisiert
+werden. Ein Beispiel benötigt folgende Daten:
+
+* *Username*: Name des Benutzers (Lehrers), sollte später über Session automatisch gesetzt werden reicht momentan
+allerdings noch manuell
+* *Example Name*: Name des Beispiels z.B.: Hello World
+* *Description*: Kurzbeschreibung des Beispiels z.B.: Java Programm welches "Hello World" auf der Console ausgibt
+* *Instruction*: Entweder ein Markdown oder Asciidoc File, welches dem Schüler als Angabe dienen soll
+* *Pom*: pom.xml des Projektes wird fürs Testen benötigt, muss also logischerweise 1 XML File sein
+* *Tests*: die Unittests fürs Projekt, müssen bis jetzt .java Files sein, können auch mehrere Files sein
+* *Solution*: der richtige Sourcecode fürs Projekt, um den Schüler eine Musterlösung zu bieten, müssen .java Files sein,
+können auch mehrere Files sein
+* *Jenkinsfile*: das Jenkinsfile welches zum Testen verwendet werden soll, der Lehrer soll die Möglichkeit haben
+zwischen mehreren Jenkinsfile-Presets auszuwählen oder eben selbst eines hochladen können
+
+=== Test Project
+
+=== List All Examples
+
+=== Example Detail
+
+== Infos
