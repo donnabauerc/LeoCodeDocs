@@ -76,3 +76,15 @@ kompliziert solch eine Umsetzung wirklich ist.
 == Infos
 
 Hier werden in Zukunft verschiedene weiteren Infos bezüglich den Endpoints oder dem generellen Backend angeführt werden.
+
+=== Endpoints
+
+Um den Client zu testen, könnt ihr natürlich das Backend verwenden. Um dieses zu starten, müsst ihr folgendes machen:
+
+* Datenbank starten: Im Projekt Root einfach `docker-compose up postgres-db`
+* Backend Server starten: Im Unterordner `Backend` den Quarkus Server mit `./mvnw clean compile quarkus:dev` starten
+
+Die Endpoints auf die ihr zugreifen müsst findet ihr im *resources* package im Backend. Ich würde euch allerdings
+empfehlen eher die *http-requests* anzusehen. Die requests findet ihr im Ordner *LeoCode/http-requests*. Dort solltet
+ihr für jede von eurer Aufgabe ein .http File finden. In diesen Files ist klar ersichtlich, welcher Endpoint welche
+Daten benötigt.
