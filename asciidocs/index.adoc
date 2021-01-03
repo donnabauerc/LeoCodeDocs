@@ -55,7 +55,7 @@ image::deployment.png[deployment]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_08_29[29.08.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_09_01[01.09.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_12_01[01.12.2020]
-|https://donnabauerc.github.io/LeoCodeDocs/2020_01_03[03.01.2021]
+|https://donnabauerc.github.io/LeoCodeDocs/2021_01_03[03.01.2021]
 
 |===
 * Sonstiges:
