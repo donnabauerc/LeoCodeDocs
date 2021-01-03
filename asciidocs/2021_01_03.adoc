@@ -1,0 +1,33 @@
+= Besprechungsprotokoll 03.01.2021
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+|Teilnehmer |T. Stütz, C. Donnabauer
+|Ort|Discord
+|Datum – Uhrzeit|03.01.2021 - 10:00
+|Dauer| 1h 30min
+|===
+
+== Besprochene Themen
+* Aktueller Status – insbesondere Kafka & SSE
+* Skelett der Diplomarbeit
+* Nächsten Schritte
+
+== Vereinbarungen und Entscheidungen
+* eventuell Submition als Submodule (ist momentan aber noch egal)
+* beim Submition Status (SSE) Timestamp hinzufügen
+* Systemarchitektur überarbeiten – für simple Graphen PlantUML, für komplexere Darstellung auch anderen Technologien
+wie zum Beispiel http://draw.io[] erlaubt
+* eigenes Diplomarbeit-Repository
+* Nächste Schritte:
+** Auseinandersetzen mit Pandoc bzw. Alternativen wie die Diplomarbeit geschrieben wird
+** Ergänzen von Stichwörtern am Skelett
+** Kafka Konfiguration so bald wie möglich dokumentieren
+
+
+

@@ -41,7 +41,7 @@ image::deployment.png[deployment]
 * Protokolle:
 |===
 |https://donnabauerc.github.io/LeoCodeDocs/2020_04_15[15.04.2020]
-| link:2020_04_15.adoc[15.04.2020 window blank]
+| link:2020_04_15.adoc[15.04.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_04_29[29.04.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_05_18[18.05.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_06_07[07.06.2020]
@@ -55,6 +55,7 @@ image::deployment.png[deployment]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_08_29[29.08.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_09_01[01.09.2020]
 |https://donnabauerc.github.io/LeoCodeDocs/2020_12_01[01.12.2020]
+|https://donnabauerc.github.io/LeoCodeDocs/2020_01_03[03.01.2021]
 
 |===
 * Sonstiges:
