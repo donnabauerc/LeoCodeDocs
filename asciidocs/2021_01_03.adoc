@@ -28,6 +28,11 @@ wie zum Beispiel http://draw.io[] erlaubt
 ** Auseinandersetzen mit Pandoc bzw. Alternativen wie die Diplomarbeit geschrieben wird
 ** Ergänzen von Stichwörtern am Skelett
 ** Kafka Konfiguration so bald wie möglich dokumentieren
+* Weitere Links:
+** https://www.diplomarbeiten-bbs.at/sites/default/files/Diplomarbeiten-Handreichung.pdf[]
+** https://pandoc.org/demos.html[]
+** https://kofler.info/ebooks/markdown_pandoc/[]
+** https://kofler.info/free-ebooks/pandoc2.pdf[]
 
 
 
