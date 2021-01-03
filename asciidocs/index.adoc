@@ -5,7 +5,7 @@ ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :toc: left
 
-Dieses Repository dient rein zur Dokumentation des Repository https://github.com/donnabauerc/LeoCode[Leo Code].
+Dieses Repository dient rein zur Dokumentation des Repository https://github.com/donnabauerc/LeoCode[Leo Code]. Der schriftliche Teil der Diplomarbeit ist unter https://github.com/donnabauerc/leocode-diploma-thesis[LeoCodeThesis] zu finden.
 
 == Pflichtenheft
 
@@ -37,6 +37,7 @@ image::deployment.png[deployment]
 == Weitere Themen:
 
 * Code Repository: https://github.com/donnabauerc/LeoCode[Leo Code]
+* Diplomarbeits-Repository: https://github.com/donnabauerc/leocode-diploma-thesis[LeoCodeThesis]
 * YouTrack: https://vm81.htl-leonding.ac.at/agiles/99-237/100-1007[LeoCode]
 * Protokolle:
 |===
