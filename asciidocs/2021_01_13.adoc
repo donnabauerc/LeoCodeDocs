@@ -1,0 +1,32 @@
+= Besprechungsprotokoll 19.01.2021
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+|Teilnehmer |T. Stütz, H. Bahar, C. Donnabauer
+|Ort|Discord
+|Datum – Uhrzeit|19.01.2021 - 20:00
+|Dauer| 1H
+|===
+
+== Besprochene Themen
+* nächsten Schritte
+* Detailed Ablauf einer dockerized Version des Projekts
+
+
+== Vereinbarungen und Entscheidungen
+* rudimentäres Frontend mittels Angular
+* Dockerize Project:
+** https://github.com/docker-java/docker-java/blob/master/docs/getting_started.md[]
+
+image::jenkinsrunnerdocker.png[]
+
+image::deploymentV2.png[]
+
+
+
+
