@@ -1,0 +1,42 @@
+= Besprechungsprotokoll 08.02.20212
+Christian Donnabauer
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |T. Stütz, C. Donnabauer
+|Ort|Discord
+|Datum - Uhrzeit|08.02.2021 - 10:54
+|Dauer|10:54-12:54 - 2:00H
+|===
+
+== Besprochene Themen
+
+* Einzelne Punkte des schriftlichen Teiles
+* Marktanalyse hinzugefügt, Kriterien festgelegt
+* Nächsten Schritte
+
+== Vereinbarungen und Entscheidungen
+
+* Diplomarbeit auch in adoc mit speziellem Theme möglich, wahrscheinlich
+nicht direkt mittels IntelliJ möglich => Asciidoctor
+* Grundsätzlich beim schriftlichen Teil mit dem schwersten beginnen
+* Marktanalyse mittels Tabelle umsetzen. Dabei werden folgende Varianten
+berücksichtigt:
+** https://scrimba.com/[]
+** https://stackblitz.com/[]
+** https://www.codingame.com/home[]
+** https://www.katacoda.com/[]
+** https://www.freecodecamp.org/[]
+** EDU Tools
+** Stepik
+* Zunächst Schemahaften Ablauf eines Beispieles dokumentieren (mittels Graphiken &
+Stichworten)
+
+image::leoLearn.png[]
+image::general.png[]
+image::schnittstellendefinition.png[]
