@@ -1,42 +1,33 @@
-= LeoCode:
+= LeoCode
 Donnabauer Christian
+:revealjs_theme: serif
 
-== Was ist LeoCode
-* Was sind die Ziele von LeoCode?
-* Wie werden die Ziele realisiert?
-* Aktueller Projektstatus
-* Was ist LeoLearn?
+== Was ist LeoCode?
 
-== Was sind die Ziele von LeoCode?
+=== Ausgangssituation
 
-
-
-=== Welche Probleme bestehen momentan?
-
-* komplexer Einstieg
-* Testvorbereitung
+* verwirrendes Setup zum Programmieren
+* schwierige Testvorbereitung
 * fehlendes Feedback
-* langsames Einarbeiten
-* Lernaufwand nicht in Benotung
+* Lernaufwand wird nicht benotet
+* langsames Einarbeiten neuer Lehrkräfte
 
 [.notes]
 --
-* Der Einstieg in die Programmierung ist für jüngere Jahrgänge momentan noch relativ komplex => Setup JDK IDE, etc.
-* Schüler können zur Testvorbereitung nur Beispiele programmieren, welche bereits im Unterricht gemacht wurden
-=> erschwert lernen für Tests
-* Schüler wissen nicht ob bzw. in wie weit ein von ihnen programmiertes Code Beispiel richtig ist => zwar wissen sie
-obs kompeliert, allerdings nicht ob Daten korrekt sind
-* Neue Lehrer an der Schule wissen nicht genau wie sehr sie die Schüler in welchen Gebieten fordern können => so werden
-Schüler überforder/unterfordert, ungleichmäßiges Leistungsniveau an der Schule
-* Lehrer können nur bedingt den individuellen Lernaufwand der Schüler in die Benotung einfließen lassen => Lehrer würden
-gern den Lernaufwand der jeder selbst investiert auch zur Benotung heranziehen, allerdings oft schwer einzuschätzen
+* Einstieg in die Programmierung oft verwirrend, Setup
+* unerfahrene Schüler, zum Lernen von Beispielen nur Beispiele aus dem Unterricht
+wiederholen => auswendig Lernen als Lernen zu Coden
+* wenn sie eigene beispiele machen => fehlende Überprüfung
+* Neue Lehrer kennen Niveau nicht => Schüler überforder/unterfordert,
+ungleichmäßiges Leistungsniveau an der Schule
+* Lehrer können nur bedingt Lernaufwand benoten
 --
 
-=== Wie werden diese gelöst?
+=== Abhilfe mit LeoCode
 
 * Online Editor
-* Website mit von Lehrern erstellten Beispielen
-* Code wird am Server getestet
+* von Lehrern erstellte Beispiele
+* am Server getesteter Code
 * Schülerportfolio
 
 [.notes]
@@ -50,36 +41,36 @@ ausprobiern
 zugeordnet
 --
 
-== Wie werden die Ziele realisiert?
-
-=== Verwendete Technologien
-
-image::./assets/tech-stack.png[tech-stack]
+== Umsetzung
 
 === Systemarchitektur
 
 image::./assets/sysarch.png[systemarchitecture]
 
-=== Ablauf
+=== Beispiel Ablauf
 
-image::./assets/sequence.png[sequence]
+image::./assets/deployment.png[sequence]
 
-=== Workflow
+== Projektstatus
 
-* OS: Ubuntu 20.04
-* IDE: Jetbrains bzw. Intellij
-* VCS: Git
-* Trennung zwischen Dokumenten & Code Repository
-* GitHub Issues (YouTrack)
+=== Fertig Implementiert
 
-== Aktueller Projektstatus
+* Provisorisches Angular Frontend
+* Kommunikation via Kafka
+* Backend Server
+* Testing-Api
 
-* Was funktioniert jetzt?
-* Nächste Schritte
+=== In Arbeit
 
-[.notes]
---
-* Backend, DB, Testing API ohne Docker, Angular funktioniert nocht nicht ausgereift
-* Jenkins Variante spezialisiernje
---
+* Blacklist
+* Whitelist
 
+=== Ausblick in die Zukunft
+
+* Unterstützung mehrerer Programmiersprachen
+* Online Editor (Theia)
+* Docker in Docker
+
+== Noch Fragen?
+
+== Vielen Dank für eure Aufmerksamkeit!
