@@ -45,7 +45,7 @@ zugeordnet
 
 === Systemarchitektur
 
-image::./assets/sysarch.png[systemarchitecture]
+image::./assets/sysarch.jpg[systemarchitecture]
 
 === Beispiel Ablauf
 
