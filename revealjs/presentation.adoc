@@ -1,8 +1,19 @@
 = LeoCode
-Donnabauer Christian
+Christian Donnabauer
 :revealjs_theme: serif
+:customcss: ./custom.css
+
+[id="logo1"]
+image::./assets/logo.png[logo]
+
+
+== Team
+
+image::./assets/portrait.jpeg[]
 
 == Was ist LeoCode?
+[id="logo2"]
+image::./assets/logo.png[logo]
 
 === Ausgangssituation
 
@@ -42,16 +53,30 @@ zugeordnet
 --
 
 == Umsetzung
+[id="logo3"]
+image::./assets/logo.png[logo]
 
 === Systemarchitektur
 
-image::./assets/sysarch.jpg[systemarchitecture]
+[id="sysarch"]
+image::./assets/sysarchTransparent.png[systemarchitecture]
 
-=== Beispiel Ablauf
+=== Ablauf
 
-image::./assets/deployment.png[sequence]
+[id="logo"]
+image::./assets/logo.png[logo]
+
+=== Lehrer erstellt ein Beispiel
+
+image::./assets/teacherSequenceTransparent.png[sequence]
+
+=== Schüler testet seinen Code
+
+image::./assets/studentSequenceTransparent.png[sequence]
 
 == Projektstatus
+[id="logo4"]
+image::./assets/logo.png[logo]
 
 === Fertig Implementiert
 
@@ -72,5 +97,7 @@ image::./assets/deployment.png[sequence]
 * Docker in Docker
 
 == Noch Fragen?
+[id="logo5"]
+image::./assets/logo.png[logo]
 
 == Vielen Dank für eure Aufmerksamkeit!

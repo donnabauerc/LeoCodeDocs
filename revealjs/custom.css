@@ -1,0 +1,70 @@
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+#sysarch{
+  position: absolute;
+  width: 100%;
+}
+
+#logo1{
+  position: absolute;
+  width: 150px;
+  top: 25px;
+  left: 85px;
+}
+
+#ti{
+  padding-left: 85px;
+}
+
+.author{
+  position: absolute;
+  left: 35%;
+}
+
+#logo2{
+  position: absolute;
+  width: 100px;
+  top: 8px;
+  left: 65px;
+}
+
+#_was_ist_leocode{
+  padding-left: 65px;
+}
+
+#logo3{
+  position: absolute;
+  width: 100px;
+  top: 8px;
+  left: 190px;
+}
+
+#_umsetzung{
+  padding-left: 60px;
+}
+
+#logo4{
+  position: absolute;
+  width: 100px;
+  top: 8px;
+  left: 165px;
+}
+
+
+#_projektstatus{
+  padding-left: 70px;
+}
+
+#logo5{
+  position: absolute;
+  width: 100px;
+  top: 8px;
+  left: 125px;
+}
+
+#_noch_fragen{
+  padding-left: 50px;
+}
