@@ -68,3 +68,18 @@
 #_noch_fragen{
   padding-left: 50px;
 }
+
+#logo6{
+  position: absolute;
+  width: 100px;
+  top: 8px;
+  left: 290px;
+}
+#_ablauf{
+  padding-left: 70px;
+}
+
+#studentSequence{
+  position: absolute;
+  width: 100%;
+}

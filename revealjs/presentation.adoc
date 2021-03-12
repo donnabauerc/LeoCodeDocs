@@ -34,6 +34,7 @@ ungleichmäßiges Leistungsniveau an der Schule
 * Lehrer können nur bedingt Lernaufwand benoten
 --
 
+
 === Abhilfe mit LeoCode
 
 * Online Editor
@@ -61,9 +62,10 @@ image::./assets/logo.png[logo]
 [id="sysarch"]
 image::./assets/sysarchTransparent.png[systemarchitecture]
 
+
 === Ablauf
 
-[id="logo"]
+[id="logo6"]
 image::./assets/logo.png[logo]
 
 === Lehrer erstellt ein Beispiel
@@ -72,6 +74,7 @@ image::./assets/teacherSequenceTransparent.png[sequence]
 
 === Schüler testet seinen Code
 
+[id="studentSequence"]
 image::./assets/studentSequenceTransparent.png[sequence]
 
 == Projektstatus
@@ -100,4 +103,4 @@ image::./assets/logo.png[logo]
 [id="logo5"]
 image::./assets/logo.png[logo]
 
-== Vielen Dank für eure Aufmerksamkeit!
+== Vielen Dank für Ihre Aufmerksamkeit!
